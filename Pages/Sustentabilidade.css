@@ -1,0 +1,53 @@
+:root {
+    --fonte-cabeçalho: "Poetsen One";
+    --fonte-principal: "Raleway";
+    --cor-fundo-cabecalho: #1E5959;
+    --verde1: #89D99D;
+    --verde2 : #3B8C6E;
+    --azul1 : #212529;
+    --azul2 : #164773;
+    --fonte-cor: white;
+  }
+  
+  a:link, a:visited,  a:hover, a:active
+  {
+      color: var(--fonte-cor);
+      text-decoration: none;
+  }
+
+  .titulo {
+    font-family: var(--fonte-cabeçalho);
+    font-size: 50px;
+    color: white;
+    text-align: center;
+    justify-content: center;
+    
+  }
+  
+  
+  .texto{
+      text-align: center;
+      display: grid;
+      grid-template-columns: 20% 20% 20% 20% 20%;
+      font-size: var(--fonte-cabeçalho) ;
+      justify-content: space-evenly;
+      font-size: 30px;
+      color: black;
+      padding: 0px -40px;
+  }
+
+  article{
+    background-color: white;
+    padding:15px;
+    color: black;
+    box-shadow: 0 0 10px black;
+    border-radius: 10px;
+   }
+
+   .introdução{
+    background-color: var(--azul1);
+    font-family: var(--fonte-principal); 
+    text-align: center;
+    color:var(--fonte-cor);
+}
+  
