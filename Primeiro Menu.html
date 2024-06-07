@@ -4,7 +4,7 @@
   <title>Agrinho</title>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="Home.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap" rel="stylesheet">
@@ -21,7 +21,7 @@
 
 <body>
 
-  <nav class="navbar navbar-expand-lg  bg-dark fixed-top">
+  <nav class="navbar fixed-top navbar-expand-lg  navbar-light" style="background-color: #011C40;">
     <div class="container-fluid">
       <a class="navbar-brand" href="#"></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -40,9 +40,19 @@
             <a class="nav-link" href="#Pag-Ofertas-de-Trabalho">Ofertas de Trabalho</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="./Pages/Novas Tecnologias.html">Novas Tecnologias</a>
+            <a class="nav-link" href="#Pag-Novas-Tecnologias">Novas Tecnologias</a>
           <li class="nav-item">
-            <a class="nav-link" href="./Pages/Acessibilidade.html">Acessibilidade</a>
+            <a class="nav-link" href="#Pag-Acessibilidade">Acessibilidade</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="color: #ffffff";>
+              Idioma
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" style="color: #011C40" href="Primeiro Menu.html">Português</a></li>
+              <li><a class="dropdown-item" style="color: #011C40" href="./Idiomas-1°Página/Primeiro Menu-Inglês.html">Inglês</a></li>
+              <li><a class="dropdown-item" style="color: #011C40" href="./Idiomas-1°Página/Primeiro Menu-Espanhol.html">Espanhol</a></li>
+            </ul>
           </li>
         </ul>
       </div>
@@ -56,7 +66,7 @@
 
   <section class="introdução">
     <div>
-      <h1 class="titulo">Projeto</h1>
+      <h1 class="titulo">Do Campo à Cidade</h1>
     </div>
   </section>
 
@@ -79,7 +89,7 @@
   <div id="Pag-sustentabilidade" class="textos-introducao">
     <section class="secao2">
       <div>
-        <h2 class="titulos-gerais" >Tutoriais e Guias</h2>
+        <h2 class="titulos-gerais">Tutoriais e Guias</h2>
         <article>
           <p>Acima podemos ver os tópicos que irão leva-los até a respectiva área abordada
             (junto da aba home, que faz referencia a primeira página e o início).</p>
@@ -88,18 +98,17 @@
         </article>
       </div>
       <div class="alinhamento-imagem-1">
-        <img class="img" src="./img/gifs-de-arvores-1.gif" alt="Seu navegador não suporta esse tipo de imagem">
+        <img class="img" src="./img/GIF-Página inicial.gif" alt="Seu navegador não suporta esse tipo de imagem">
       </div>
     </section>
 
   </div>
   <section class="topico-1">
     <div class="alinhamento-imagem-2">
-      <img class="img-top-1" src="./img/OIP__7_-removebg-preview.png"
-        alt="Seu navegador não suporta esse tipo de imagem">
+      <img class="img-top-1" src="./img/Sustentabilidade.png" alt="Seu navegador não suporta esse tipo de imagem">
     </div>
 
-    <div class="textos-top-1">
+    <div id="Pag-Ofertas-de-Trabalho" class="textos-top-1">
       <h2>Sustentabilidade</h2>
       <p>Acima podemos ver os tópicos que irão leva-los até a respectiva área abordada
         (junto da aba home, que faz referencia a primeira página e o início).</p>
@@ -107,13 +116,13 @@
         Ofertas de Emprego, Acessibilidade e as Novas Tecnologias na Área da Agricultura.</p>
 
       <section class="pag2-link">
-        <a class="pag2" href="./Pages/Acessibilidade.html">Saiba Mais</a>
+        <a class="pag2" href="./Pages/Sustentabilidade.html">Saiba Mais</a>
       </section>
     </div>
   </section>
 
-  <section id="Pag-Ofertas-de-Trabalho" class="topico-2">
-    <div class="textos-top-2">
+  <section  class="topico-2">
+    <div id="Pag-Novas-Tecnologias" class="textos-top-2">
       <h2>Ofertas de Trabalho</h2>
       <p>Analista de Big Data Agrícola: Coleta, organiza e analisa grandes conjuntos de dados provenientes
         de sensores, máquinas agrícolas e outras fontes para extrair insights que otimizem a produção e a
@@ -121,14 +130,57 @@
       <p> A Engenheiro de Agronegócio: Projeta, desenvolve e implementa soluções tecnológicas para o agronegócio
         , como sistemas de automação para colheita e processamento de grãos, softwares de gestão da cadeia de
         suprimentos e plataformas de e-commerce para venda de produtos agrícolas.</p>
-
       <section class="pag3-link">
         <a class="pag3" href="./Pages/Ofertas de Trabalho.html">Saiba Mais</a>
       </section>
     </div>
     <div class="alinhamento-imagem-3">
-      <img class="img-top-2" src="./img/Farmer-rafiki (1).png" alt="Seu navegador não suporta esse tipo de imagem">
+      <img class="img-top-2" src="./img/Ofertas de Trabalho.png" alt="Seu navegador não suporta esse tipo de imagem">
     </div>
   </section>
+
+
+  <section class="topico-3">
+    <div class="alinhamento-imagem-4">
+      <img class="img-top-3" src="./img/Novas Tecnologias.png" alt="Seu navegador não suporta esse tipo de imagem">
+    </div>
+
+    <div id="Pag-Acessibilidade" class="textos-top-3">
+      <h2>Novas Tecnologias</h2>
+      <p>Plataformas online: Plataformas online conectam agricultores, fornecedores de insumos, empresas de
+        logística e outros agentes do agronegócio, facilitando a compra e venda de produtos, a obtenção de
+        crédito, o acesso a informações e serviços técnicos, e a comercialização da produção.</p>
+      <p>Robôs para tarefas específicas: Auxiliam em tarefas como ordenha, limpeza de currais e transporte
+        de animais, reduzindo o trabalho manual e otimizando a produtividade.</p>
+
+      <section class="pag4-link">
+        <a class="pag4" href="./Pages/Novas Tecnologias.html">Saiba Mais</a>
+      </section>
+    </div>
+  </section>
+
+  <section id="Pag-Ofertas-de-Trabalho" class="topico-4">
+    <div class="textos-top-4">
+      <h2>Acessibilidade</h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque non, et impedit,
+        debitis quidem ex necessitatibus facere laboriosam earum voluptatum pariatur ducimus officia
+        culpa id. Deleniti ad consequatur rerum nemo.</p>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius ipsum dolor hic veniam facilis ad
+        repellendus assumenda et. Reprehenderit quasi fuga pariatur corrupti error enim eius dolorem molestiae
+        quos aut?</p>
+      <section class="pag5-link">
+        <a class="pag5" href="./Pages/Ofertas de Trabalho.html">Saiba Mais</a>
+      </section>
+    </div>
+    <div class="alinhamento-imagem-5">
+      <img class="img-top-4" src="./img/Grandma-cuate.png" alt="Seu navegador não suporta esse tipo de imagem">
+    </div>
+  </section>
+
+  <footer class="rodape">
+    <p>&copy; 2024 Do Campo à Cidade. Todos os direitos reservados.</p>
+  </footer>
+
 </body>
+
 </html>
