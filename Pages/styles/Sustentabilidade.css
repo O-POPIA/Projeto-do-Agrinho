@@ -219,10 +219,10 @@ article {
 .textos2{
   font-family: var(--fonte-principal);
   border-radius: 15px;
-  box-shadow: 0px 0px 10px black;
+  box-shadow: 0px 0px 15px black;
   margin: 10px;
   padding: 5px;
-  background-color: var(--verde3);
+  background-color: whitesmoke;
 }
 
 .textos3{
@@ -231,7 +231,6 @@ article {
   box-shadow: 0px 0px 10px black;
   margin: 10px;
   padding: 5px;
-  background-color: var(--verde3);
 }
 .textos-3{
   display: flex;
@@ -242,10 +241,9 @@ article {
 }
 
 .tudo{
-  background-image: linear-gradient(var(--verde2),var(--verde2),var(--verde2),var(--verde1),var(--verde1),
-  var(--verde4),var(--verde5),var(--verde5),var(--verde4),var(--verde1),var(--verde1),var(--verde2),
-  var(--verde2),var(--verde2));
-}
+  background-image: linear-gradient(to top, #64d00b 0%, #cbe8c5 100%);
+};
+
 
 .alinhamento-imagem-4{
   display: flex;
@@ -260,7 +258,16 @@ article {
   width: 70%;
 }
 
-.alinhamento-gif-1{
+.gif-1{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 23px;
+  max-width: 534px;
+  max-height: 286px;
+}
+
+.gif-2{
   display: flex;
   align-items: center;
   justify-content: center;
@@ -278,9 +285,19 @@ article {
   border-radius: 100px;
   width: 70%;
   box-shadow: 0px 0px 20px black;
+ margin: 10px;
 }
 
+.deco-gif-sustentabilidade-3{
+  border-radius: 70px;
+  width: 90%;
+  box-shadow: 0px 0px 10px black;
+}
 
+.alinhamento-gif{
+  padding: 10px;
+  margin: 10px;
+}
 
 .comparação{
   display: flex;
@@ -305,6 +322,72 @@ article {
   background-color: var(--vermelho1);
 } 
 
+.hidden-section-container {
+  background-color:var(--azul1);
+  box-shadow:0 2px 10px rgba(0,0,0,0.2);
+  border: 5px solid var(--azul1);
+}
+ 
+.sh-section-btn {
+  text-align: center;
+  font-size:18px;
+  color:#fff;
+  text-shadow:1px 1px 0px rgba(0,0,0,0.2);
+  padding:5px 10px;
+  cursor:pointer;
+  margin: 20px;
+}
+ 
+.h-section-cont {
+ padding:10px 10px;
+ background-color:#eee; 
+ display:none;
+}
+
+.clique{
+  margin: 10px 0px;
+  padding: -7px 0px;
+  background-color: rgb(197, 197, 197);
+  border-radius: 10px;
+}
+
+.botao-2{
+  justify-content: center;
+  text-align: center;
+  min-width: 1343px;
+  background-color: var(--azul1);
+  padding: 12px;
+  margin:10px;
+}
+.botao-2-cor{
+  background-color: rgb(197, 197, 197);
+  box-shadow:0 2px 10px white;
+  border-radius: 10px;
+}
+
+.tudo2{
+  background-color: var(--azul1);
+}
+
+.uniao{
+  display: grid;
+  grid-template-columns: 54% 46%;
+}
+
+.gif-3{
+  margin: 10px;
+  width: 20%;
+}
+
+.collapse-2{
+  border: 5px solid var(--azul1);
+  background-color: rgb(173, 173, 173);
+  padding: 30px;
+}
+
+.textos-2{
+  background-color: rgb(173, 173, 173);
+}
 
 footer {
   background-color: var(--azul1);
