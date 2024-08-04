@@ -36,7 +36,8 @@ a:active {
   color: white;
   text-align: center;
   justify-content: center;
-
+  padding: 5px;
+  margin: -4px;
 }
 
 .titulos-gerais {
@@ -309,10 +310,13 @@ footer {
   /* Other mobile-specific styles */
 }
 
-/* Base styles */
+
 html {
   font-size: 16px;
 }
+
+
+/*CELULARES-G*/
 
 @media (min-width:376px) and (max-width: 450px){
 img {
@@ -334,8 +338,20 @@ nav{
   max-width: 450px ;
   max-height: 45px;
 }
+.navbar-1{
+  background-color: #011C40; padding: 5px; margin: -12px;
 }
-/* Media query for medium screens (tablet) */
+.navbar-2{
+  background-color: #ffffff; min-width: 35px; min-height: 35px; margin: -3px 0px; padding: 5px;
+}
+.navbar-3{
+  margin: -11px; padding: 10px;
+}
+}
+
+
+/*TABLETS*/
+
 @media (min-width: 768px) and (max-width: 991px) {
   img {
     width: 100%;
@@ -360,6 +376,9 @@ footer{
   font-size: 9px;
 }
 }
+
+
+/*DESKTOP-NORMAL*/
 
 @media (max-width: 1025px) and (min-width: 992px){
   img {
