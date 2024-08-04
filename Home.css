@@ -1,6 +1,6 @@
 :root {
   --fonte-cabeçalho: "Poetsen One";
-  --fonte-principal: "Raleway";
+  --fonte-principal: "Noto Sans";
   --cor-fundo-cabecalho: #1E5959;
   --cinza: #212529;
   --fonte-cor:white;
@@ -72,6 +72,8 @@ article {
   color: black;
   box-shadow: 0 0 10px black;
   border-radius: 10px;
+  font-size: 17px;
+  font-family: var(--fonte-principal);
 }
 
 .secao {
@@ -122,6 +124,8 @@ article {
   max-width: 809px;
   min-width: 809px;
   max-height: 286px;
+  font-size: 17px;
+  font-family: var(--fonte-principal);
 }
 
 .topico-1 {
@@ -156,6 +160,8 @@ article {
   padding: 15px;
   max-width: 809px;
   min-width: 809px;
+  font-size: 17px;
+  font-family: var(--fonte-principal);
 }
 
 .pag3 {
@@ -215,6 +221,8 @@ article {
   max-width: 809px;
   min-width: 809px;
   max-height: 286px;
+  font-size: 17px;
+  font-family: var(--fonte-principal);
 }
 
 .topico-3 {
@@ -248,6 +256,8 @@ article {
   padding: 15px;
   max-width: 809px;
   min-width: 809px;
+  font-size: 17px;
+  font-family: var(--fonte-principal);
 }
 
 .alinhamento-imagem-5 {
@@ -286,3 +296,89 @@ footer {
   padding: 10px 0;
   width: 100%;
 }
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+@media (max-width: 767px) {
+  .textos {
+    display: flex;
+    flex-direction: column;
+  }
+  /* Other mobile-specific styles */
+}
+
+/* Base styles */
+html {
+  font-size: 16px;
+}
+
+@media (min-width:376px) and (max-width: 450px){
+img {
+    width: 100%;
+  }
+  .alinhamento-imagem-2,.alinhamento-imagem-3,.alinhamento-imagem-4,.alinhamento-imagem-5{
+    margin: 0;
+    max-width: 0px;
+  }
+  .textos-top-1,.textos-top-2,.textos-top-3,.textos-top-4{
+   font-size: 11px;
+   margin: 10px;
+   min-width: 400px;
+  }
+article{
+  font-size: 11px;
+}
+nav{
+  max-width: 450px ;
+  max-height: 45px;
+}
+}
+/* Media query for medium screens (tablet) */
+@media (min-width: 768px) and (max-width: 991px) {
+  img {
+    width: 100%;
+  }
+  .alinhamento-imagem-2,.alinhamento-imagem-3,.alinhamento-imagem-4,.alinhamento-imagem-5{
+    min-width: 218px;
+    max-width: 300px;
+  }
+  .textos-top-1,.textos-top-2,.textos-top-3,.textos-top-4{
+   font-size: 11px;
+   margin: 10px;
+   min-width: 490px;
+  }
+article{
+  font-size: 11px;
+}
+nav{
+  max-width: 768px ;
+  color: white;
+}
+footer{
+  font-size: 9px;
+}
+}
+
+@media (max-width: 1025px) and (min-width: 992px){
+  img {
+    width: 100%;
+  }
+  .alinhamento-imagem-2,.alinhamento-imagem-3,.alinhamento-imagem-4,.alinhamento-imagem-5{
+    min-width: 248px;
+    max-width: 300px;
+  }
+  .textos-top-1,.textos-top-2,.textos-top-3,.textos-top-4{
+   font-size: 15px;
+   margin: 10px;
+   min-width: 700px;
+  }
+article{
+  font-size: 15px;
+}
+}
+
+
+
+
