@@ -330,9 +330,7 @@ img {
    margin: 10px;
    min-width: 400px;
   }
-article{
-  font-size: 11px;
-}
+
 nav{
   max-width: 450px ;
   max-height: 45px;
@@ -400,7 +398,7 @@ article{
 /*HD+*/
 
 
-@media (min-width: 1500px) and (max-width: 1799px){
+@media (min-width: 1500px) and (max-width: 1px){
   img {
     width: 100%;
   }
