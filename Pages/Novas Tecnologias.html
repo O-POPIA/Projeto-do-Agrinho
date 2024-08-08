@@ -4,9 +4,12 @@
   <title>Agrinho</title>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="4.css">
+  <link rel="stylesheet" href="styles/Novas Tech.css">
+  <script src="../javascript.js"></script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap" rel="stylesheet">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -17,11 +20,16 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
     crossorigin="anonymous"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 </head>
 
 <body>
 
-  <nav class="navbar navbar-expand-lg  bg-dark fixed-top">
+
+  <nav class="navbar fixed-top navbar-expand-lg  navbar-light" style="background-color: #011C40;">
     <div class="container-fluid">
       <a class="navbar-brand" href="#"></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -31,7 +39,8 @@
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a class="nav-link" aria-current="page" href="../Primeiro Menu.html">Home</a>
+            <a class="nav-link" aria-current="page" href="../index.html"><img class="imagem-voltar"
+                src="../img/Voltar.png"></img></a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="./Sustentabilidade.html">Sustentabilidade</a>
@@ -41,15 +50,168 @@
           </li>
           <li class="nav-item">
             <a class="nav-link" href="./Novas Tecnologias.html">Novas Tecnologias</a>
-          </li>
           <li class="nav-item">
             <a class="nav-link" href="./Acessibilidade.html">Acessibilidade</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"
+              style="color: #ffffff";>
+              Idioma
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" style="color: #011C40" href="../index.html">Português</a></li>
+              <li><a class="dropdown-item" style="color: #011C40" href="#">Inglês</a></li>
+              <li><a class="dropdown-item" style="color: #011C40" href="#">Espanhol</a></li>
+            </ul>
           </li>
         </ul>
       </div>
     </div>
   </nav>
+  <div class="tudo">
+    <section class="introdução">
+      <div>
+        <h1 class="titulo-introducao">SPAM</h1>
+      </div>
+    </section>
 
+    <section class="introdução">
+      <div>
+        <h1 class="titulo">Novas Tecnologias</h1>
+      </div>
+    </section>
+    <section class="carrosel">
+      <main class="carousel-container">
+        <div class="carousel">
+          <div class="item active">
+            <img src="../img/Novas Tech/nova-1.jpg" alt="Image 1" />
+            <p class="caption">Drone regando plantas</p>
+          </div>
+          <div class="item">
+            <img src="../img/Novas Tech/nova-2.jpg" alt="Image 2" />
+            <p class="caption">Representação das tecnologias</p>
+          </div>
+          <div class="item">
+            <img src="../img/Novas Tech/nova-3.jpg" alt="Image 3" />
+            <p class="caption">Fazendeiro usando as novas tecnologias</p>
+          </div>
+        </div>
+        <button class="btn prev">Anterior</button>
+        <button class="btn next">Próxima</button>
+        <div class="dots"></div>
+      </main>
+    </section>
+    <script type='text/javascript'>
+      $(document).ready(function () {
+        $(".sh-section-btn").on("click", function () {
+          $(this).parent().children(".h-section-cont").slideToggle(200);
+        })
+      });
+    </script>
+  </div>
+  <div class="tudo2">
+    <div class='hidden-section-container'>
+      <div class='sh-section-btn'><span>Dentre as principais vantajens e desvantajens temos as suguintes:
+          <section class="clique">
+            <p>Veja Mais</p>
+          </section>
+        </span></div>
+      <div class='h-section-cont shw-box'>
+        <p class="texto-visivel"></p>
+
+        <p>
+        <section class="comparação">
+          <div class="beneficios">
+            <p class="vantajens">
+            <h4>Benefícios: </h4>
+            <p><b>Aumento da produtividade: </b>  As novas tecnologias permitem otimizar o uso de insumos como água, fertilizantes e sementes, resultando em maior produtividade e menor custo de produção.</p>
+            <p><b>Sustentabilidade: </b>A agricultura de precisão contribui para a preservação do meio ambiente, reduzindo o uso de agrotóxicos e a erosão do solo.</p>
+            <p><b>Qualidade dos produtos: </b> As tecnologias permitem monitorar a qualidade dos produtos durante todo o processo produtivo, garantindo alimentos mais seguros e nutritivos.</p>
+            <p><b>Redução de perdas: </b>Através do monitoramento em tempo real das condições das culturas, é possível identificar e tratar problemas de forma rápida e eficiente, reduzindo as perdas na produção.</p>
+            <p><b>Tomada de decisão mais precisa: </b> Os dados gerados pelas tecnologias permitem aos agricultores tomar decisões mais precisas e embasadas, otimizando a gestão de suas propriedades</p>
+            </p>
+          </div>
+          <div class="desafios">
+            <p class="desvantajens">
+            <h4>Desafios: </h4>
+            <p><b>Custo elevado: </b>A aquisição e manutenção de equipamentos e softwares agrícolas de alta tecnologia podem ser economicamente inviáveis para muitos agricultores, especialmente os de menor porte.</p>
+            <p><b>Conectividade: </b> A falta de infraestrutura de comunicação em áreas rurais, como a internet de alta velocidade, limita o uso de tecnologias que dependem de uma conexão constante.</p>
+            <p><b>Falta de qualificação: </b>A rápida evolução das tecnologias exige que os agricultores e técnicos agrícolas estejam constantemente se atualizando, o que pode ser um desafio em regiões com menor acesso à educação e treinamento.</p>
+            <p><b>Adaptação cultural: </b> A resistência à mudança e a dificuldade em adaptar as práticas tradicionais às novas tecnologias podem retardar o processo de adoção.</p>
+            <p><b>Manutenção e reparo: </b> A complexidade dos equipamentos tecnológicos exige profissionais especializados para realizar a manutenção e o reparo, o que pode ser um desafio em áreas remotas.</p>
+            </p>
+          </div>
+        </section>
+        </p>
+
+
+      </div>
+    </div>
+    <section class="textos-1">
+      <div class="texto1">
+        <p>
+        <h2>Ofertas de Trabalho no Campo: Novas Oportunidades em um Setor em Transformação</h2>
+        A agricultura, tradicionalmente associada a atividades manuais e contato direto com a natureza, 
+        está passando por uma transformação profunda, impulsionada pela inovação tecnológica. As novas tecnologias 
+        do campo estão redefinindo a forma como produzimos alimentos, tornando a agricultura mais eficiente, 
+        sustentável e produtiva.A integração de tecnologias digitais na agricultura, conhecida como agricultura de 
+        precisão, permite um manejo mais preciso e eficiente dos recursos naturais. Sensores, drones, softwares de 
+        análise de dados e inteligência artificial são algumas das ferramentas que estão transformando o campo em um 
+        ambiente cada vez mais tecnológico.</p>
+      </div>
+    
+      <div class="alinhamento-gif-1">
+        <img src="../img/Novas Tech/gif-1.gif" alt="" class="deco-gif-sustentabilidade-2">
+      </div>
+    </section>
+    <section class="uniao">
+      <div class="botao-2">
+        <button class="botao-2-cor" class="btn btn-primary" type="button" data-bs-toggle="collapse"
+          data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+          <h2>Um Novo Cenário para o Trabalhador Rural:</h2>
+        </button>
+      </div>
+      <div class="gif3">
+        <img src="../img/sustentabilidade/Gif-Clique Aqui.gif" alt="" class="gif-3">
+      </div>
+    </section>
+    </p>
+    <div class="collapse" id="collapseExample">
+      <div class="texto-escondido">
+        <section class="textos-2">
+          <div class="textos2">
+            
+            <p>A agricultura, tradicionalmente associada a atividades manuais e contato direto com a natureza, está 
+              passando por uma transformação profunda, impulsionada pela inovação tecnológica. As novas tecnologias do
+               campo estão redefinindo a forma como produzimos alimentos, tornando a agricultura mais eficiente, 
+               sustentável e produtiva.</p>
+
+            <p><b>Drones: </b>Utilizados para monitorar lavouras, identificar pragas e doenças, aplicar fertilizantes e realizar mapeamento topográfico.</p>
+            <p><b>Sensores: </b>Coletam dados sobre diversos fatores, como umidade do solo, temperatura, pH e nutrição das plantas, permitindo um monitoramento preciso das condições das culturas.</p>
+            <p><b>Softwares de análise de dados: </b>  Utilizados para analisar grandes volumes de dados e gerar informações relevantes para a tomada de decisão.</p>
+            <p><b>Inteligência artificial: </b> Permite automatizar processos, identificar padrões e prever resultados, otimizando a produção.</p>
+            <p><b>Robótica: </b>Robôs autônomos são utilizados para realizar tarefas como plantio, colheita e aplicação de defensivos agrícolas.</p>
+            <p><b>Internet das Coisas (IoT): </b> Conecta máquinas, sensores e dispositivos agrícolas, permitindo o monitoramento em tempo real e o controle remoto de diversos processos.</p>
+            <p><b>Realidade aumentada e virtual: </b>Utilizadas para treinamento de agricultores, simulação de cenários e visualização de dados em 3D.</p>
+            <p><b>Blockchain: </b> Garante a rastreabilidade dos produtos, desde a origem até o consumidor final, aumentando a transparência e a segurança.</p>
+          </div>
+          <div class="alinhamento-gif">
+            <section class="gif-1">
+              <img src="../img/Novas Tech/gif-2.gif" alt=""
+                class="deco-gif-sustentabilidade-1">
+            </section>
+          </div>
+
+        </section>
+      </div>
+    </div>
+
+    <footer class="rodape">
+      <p class="rodape-tex">&copy; 2024 Do Campo à Cidade. Todos os direitos reservados.</p>
+      <a href="../referencias.html"><p><u>Referências Utilizadas</u></p></a>
+    </footer>
+  
+  </div>
 </body>
 
 </html>

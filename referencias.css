@@ -1,0 +1,53 @@
+:root {
+    --fonte-cabeçalho: "Poetsen One";
+    --fonte-principal: "Noto Sans";
+    --cor-fundo-cabecalho: #1E5959;
+    --cinza: #212529;
+    --fonte-cor:white;
+    --verde1:   #31964a;
+    --verde2:   #45BF55;
+    --verde3:   #97ED8A;
+    --verde4:   #168039;
+    --verde5:   #044D29;
+    --verde6:   #00261C;
+    --azul1:    #011C40;
+    --azul2:    #023535;
+    --azul3:    #008F8C;
+    --azul4:    #0FC2C0;
+    --amarelo1: #F2D338;
+    --amarelo2: #F2C335;
+    --amarelo3: #F2A007;
+    --rosa1:    #86013f;
+    --rosa2:    #be0059;
+    --rosa3:    #6d0033;
+  }
+  
+  .introdução {
+    background-color: var(--azul1);
+    font-family: var(--fonte-principal);
+    color: var(--fonte-cor);
+    text-align: center;
+  }
+  
+  .titulo {
+    font-family: var(--fonte-principal);
+    font-size: 40px;
+    color: white;
+    text-align: center;
+    justify-content: center;
+    padding: 5px;
+    margin: -4px;
+  }
+
+  .imagem-voltar {
+    width: 40px;
+    margin: -5px;
+  }
+
+  .links{
+    font-size: 20px;
+    font-family: var(--fonte-principal);
+    margin: 10px;
+    padding: 20px;
+    color:black;
+  }

@@ -73,7 +73,7 @@ article {
   color: black;
   box-shadow: 0 0 10px black;
   border-radius: 10px;
-  font-size: 17px;
+  font-size: 15px;
   font-family: var(--fonte-principal);
 }
 
@@ -125,7 +125,7 @@ article {
   max-width: 809px;
   min-width: 809px;
   max-height: 286px;
-  font-size: 17px;
+  font-size: 15px;
   font-family: var(--fonte-principal);
 }
 
@@ -161,7 +161,7 @@ article {
   padding: 15px;
   max-width: 809px;
   min-width: 809px;
-  font-size: 17px;
+  font-size: 15px;
   font-family: var(--fonte-principal);
 }
 
@@ -222,7 +222,7 @@ article {
   max-width: 809px;
   min-width: 809px;
   max-height: 286px;
-  font-size: 17px;
+  font-size: 15px;
   font-family: var(--fonte-principal);
 }
 
@@ -257,7 +257,7 @@ article {
   padding: 15px;
   max-width: 809px;
   min-width: 809px;
-  font-size: 17px;
+  font-size: 15px;
   font-family: var(--fonte-principal);
 }
 
@@ -307,12 +307,11 @@ footer {
     display: flex;
     flex-direction: column;
   }
-  /* Other mobile-specific styles */
 }
 
 
 html {
-  font-size: 16px;
+  font-size: 15px;
 }
 
 
@@ -401,7 +400,7 @@ article{
 /*HD+*/
 
 
-@media (min-width: 1500px) and (max-width: 1600px){
+@media (min-width: 1500px) and (max-width: 1799px){
   img {
     width: 100%;
   }
